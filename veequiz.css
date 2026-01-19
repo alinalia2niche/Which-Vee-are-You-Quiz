@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(113, 0, 34) !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+}
+
+.btn{
+    height: 30px !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+    background-color: rgb(85, 0, 85) !important;
+    color : yellow !important;
+    font-family: monospace !important;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #0b0146 !important;
+}
+#title{
+    font-family: monospace !important;
+    padding: 15px !important;
+    border: 10px double red !important;
+    background-color: blue !important;
+    height: 70px !important;
+    width: 300px !important;
+    margin-top: 15px !important;
+    align-items: center !important;
+    display: flex !important; 
+    text-align: center !important;
+    justify-content: center !important;
+    font-size: 1.5rem !important;
+    border-radius: 20px;
+
+}
+
+#button{
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+#start{
+    width: 120px;
+    border: 4px double #de3aff;
+    border-radius: 5px;
+    background-color: #D14462;
+    font-family: monospace;
+    color: #ffff00;
+    font-weight: bold;
+}
+
+#start:hover{
+    transform: scale(1.1);
+}
+
+#hi{
+    color: #4ce9e9 !important;
+    background-color: #352030 !important;
+    font-family: monospace;
+}
+
+
+#questiontext{
+    margin-left: 300px;
+    margin-top: 10px;
+    padding-left: 0px !important;
+    font-size: x-large;
+}
+
+#box1{
+    width: 20px;
+    background-color: #ffcef4;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+    
+}
+
+#questionbox{
+    margin-top: 20px;
+    background-color: #da36ff;
+    color : #352030;
+    font-family: monospace;
+    display: none;
+}
+
+.small{
+    font-size: 2px;
+    color: white;
+}
+
+.pic{
+    display: none;
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    transform: translate(40px, -360px)
+}
+
+#vox{
+    width: 150px;
+    height: 350px;
+    transform: translate(100px, -370px);
+}
+#val{
+    width: 225px;
+    height: 420px;
+    transform: translate(40px, -425px);
+}
+#vel{
+    height: 350px;
+    width: 250px;
+    transform: translate(40px, -360px);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vee Quiz</title>
+    <link rel="stylesheet" href="veequiz.css">
+    <link rel="icon" href="voxtek.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container mx-auto text-center">
+        <h1 class="mx-auto" id="title">Which Vee Are You?</h1>
+    </div>
+    <div class="card mx-auto" id="questionbox" style="width: 10rem; margin-top: 25px;">
+        <h1 class="text-center mx-auto card-title" id="questiontext">Placeholder</h1>
+    </div>
+
+    <br> 
+
+    
+    <div class="card mx-auto text-center" style="width: 20rem; height: 9rem; padding:5px; color:rgb(97, 0, 76)" id="hi">
+        <p id="info">Vox, Valentino, and Velvette are the ruthless rulers of Pentagram city. Which one are you?</p>
+        <button class="mx-auto" id="start" >Start Quiz</button>
+    </div>
+
+    <div class="d-grid gap-1 mx-auto" id="buttons">
+        <button class="btn btn-primary mx-auto" type="button" id="b1" style="display: none;">1</button>
+        <button class="btn btn-primary mx-auto" type="button" id="b2" style="display: none;">2</button>
+        <button class="btn btn-primary mx-auto" type="button" id="b3" style="display: none;">3</button>
+        <button class="btn btn-primary mx-auto" type="button" id="b4" style="display: none;">4</button>
+        <button class="btn btn-primary mx-auto" type="button" id="b5" style="display: none;">5</button>
+    </div>
+    <img src="vox.png" id="vox" class="pic">
+    <img src="val.png" id="val" class="pic">
+    <img src="vel.png" id="vel" class="pic">
+
+    <script src="veequiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(175, 0, 94) !important;
+    font-family: monospace !important;
+    color:rgb(255, 251, 0) !important;
+}
+
+.cardd{
+    background-color: #3e003e !important;
+    color:rgb(0, 55, 255) !important;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#title{
+    border: 10px double rgb(255, 0, 208);
+    background-color: rgb(0, 157, 255);
+}
+
+#picture{
+    position: absolute;
+    width: 200px;
+    height: 260px;
+    transform: translate(750px, -260px);
+}
+
+#picture2{
+    position: absolute;
+    width: 240px;
+    height: 260px;
+    transform: translate(30px, -250px);
+}
