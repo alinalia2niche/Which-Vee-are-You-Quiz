@@ -103,15 +103,15 @@ body{
 #vox{
     width: 150px;
     height: 350px;
-    transform: translate(100px, -370px);
+    transform: translate(350px, -370px);
 }
 #val{
     width: 225px;
     height: 420px;
-    transform: translate(40px, -425px);
+    transform: translate(230px, -405px);
 }
 #vel{
     height: 350px;
     width: 250px;
-    transform: translate(40px, -360px);
+    transform: translate(280px, -350px);
 }
