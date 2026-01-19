@@ -22,12 +22,12 @@ body{
     position: absolute;
     width: 200px;
     height: 260px;
-    transform: translate(750px, -260px);
+    transform: translate(720px, -260px);
 }
 
 #picture2{
     position: absolute;
     width: 240px;
     height: 260px;
-    transform: translate(30px, -250px);
+    transform: translate(90px, -250px);
 }
